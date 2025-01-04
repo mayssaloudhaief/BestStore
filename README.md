@@ -17,7 +17,7 @@ BestStore is a Spring Boot application designed for managing an online store's p
 ## **Tech Stack**
 
 - **Backend**: Java, Spring Boot
-- **Database**: (Your choice, e.g., MySQL, PostgreSQL)
+- **Database**: MySQL
 - **Frontend Templates**: Thymeleaf
 - **File Storage**: Local file system for images
 - **Build Tool**: Maven
@@ -30,7 +30,7 @@ BestStore is a Spring Boot application designed for managing an online store's p
 
 1. Java 17 or later
 2. Maven 3.6 or later
-3. Database server (e.g., MySQL, PostgreSQL)
+3. Database server MySQL
 4. IDE (e.g., IntelliJ IDEA, Eclipse)
 
 ### Installation
