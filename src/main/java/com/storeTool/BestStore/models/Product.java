@@ -10,6 +10,9 @@ import jakarta.persistence.Table;
 import java.math.BigDecimal;
 import java.util.Date;
 
+/**
+ *
+ */
 @Entity
 @Table(name = "products")
 public class Product {

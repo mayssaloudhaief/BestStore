@@ -19,5 +19,16 @@ public class ProductConverter implements Converter<ProductDto, Product> {
         return product;
     }
 
+    public ProductDto convertConvertToDto(Product source) {
+        if (source == null) return null;
+        ProductDto productDto = new ProductDto();
+        productDto.setPrice(source.getProductPrice());
+        productDto.setBrand(source.getProductBrand());
+        productDto.setName(source.getProductName());
+        productDto.setDescription(source.getProductDescription());
+        productDto.setCategory(source.getProductCategory());
+        return productDto;
+    }
+
 
 }

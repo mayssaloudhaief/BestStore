@@ -7,6 +7,9 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.math.BigDecimal;
 
+/**
+ *
+ */
 public class ProductDto {
     @NotEmpty(message = "The product name is required ")
     private String name;
